@@ -1,0 +1,16 @@
+{
+  "name": "minter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "minter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "truffle-contract": "^4.0.19",
+    "truffle-hdwallet-provider": "^1.0.10",
+    "web3": "^1.0.0-beta.55"
+  }
+}
