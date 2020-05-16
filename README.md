@@ -1,4 +1,4 @@
-# Real Estate Token
+# Real Estate Marketplace
 Mint non-fungible tokens to represent the real estate properties and use zk-SNARKs to create a verification system which can prove the title to the property without revealing that specific information on the property. After verification, the tokens will be placed into the blockchain market place named OpenSea. 
 
 ## Version
