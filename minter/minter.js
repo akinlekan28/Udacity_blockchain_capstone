@@ -2,8 +2,10 @@ const fs = require("fs");
 const HDWalletProvider = require("truffle-hdwallet-provider");
 const TruffleContract = require("truffle-contract");
 const Web3 = require("web3");
+require('dotenv').config();
 
-const INFURA_KEY = "3a4acd0dbe83454a9dc0f9b6ce338001";
+const INFURA_KEY = process.env.INFURA_KEY;
+
 const OWNER_ACCOUNT = "0x524d933c6E5515B179cB078a85b8945357302CA8";
 const MNEMONIC_METAMASK =
   "coast test brush gallery broccoli frame letter entire topic digital fit chapter";

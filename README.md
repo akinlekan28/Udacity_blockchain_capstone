@@ -9,6 +9,8 @@ Mint non-fungible tokens to represent the real estate properties and use zk-SNAR
 
 `Node v11.8.0`
 
+`dotenv ^8.2.0`
+
 ## Install
 `npm install`
 
@@ -75,11 +77,18 @@ Verifier: 0x94E7b3757db29fc164067A177e33C33Bd554797d
 SolnSquareVerifier: 0x0d4e5beDb40583647C1CEFC889b326ce5f780dB2
 ```
 
+## Storefront link
+* [Opensea Rinkeby](https://rinkeby.opensea.io/assets/unidentified-contract-v372/)
+
 ## Mint Token at Rinkeby network
 
 `cd minter`
 
 `npm install`
+
+`touch .env`
+
+`Open .env file and paste INFURA_KEY=YOUR_INFURA_KEY_VALUE`
 
 `node minter.js`
 
